@@ -24,11 +24,16 @@ p{
     list-style-type: none;
     gap:2rem;
 }
+.head-logo p{
+    font-size:2rem;
+    color:black;
+}
 
 .head-nav a{
     /* text-decoration-color: white; */
 text-decoration: none;
-color:black
+color:black;
+font-size:1.5rem;
     /* list-style-type:none ; */
 }
 .head-nav a:hover{
@@ -130,6 +135,7 @@ li{
     margin:0 10rem;
     box-sizing: border-box;
     min-height:fit-content; 
+    /* gap:0rem; */
 }
 .prof-img{
     width:400px;
@@ -137,16 +143,20 @@ li{
     display:flex;
     /* margin-right:auto; */
     margin-left:auto;
+
     
 
+}
+.prof-img img{
+    margin-right:0rem;
 }
 
 .prof1{
     display:flex;
     justify-content: center;
-    /* align-items: center; */
-    gap:5rem;
-    height:80vh;
+    align-items: center;
+    gap:0rem;
+    height:83vh;
 
 }
 @media screen and (max-width:600px){
@@ -222,6 +232,302 @@ button{
     color:white;
 }
 
+.about-container{
+    gap:2rem;
+}
+.about-container{
+    display:flex;
+    justify-content: center;
+    flex-direction:column;
+}
+.edu-about{
+    display:flex;
+    flex-direction: column;
+}
+.edu-about img{
+    width:2rem;
+
+}
+.about-img{
+    border-radius:2rem; 
+}
+
+.next-arrow{
+    width:1rem;
+    height:1rem;
+    position:absolute;
+    right:2rem;
+    bottom:2.5rem;
+}
+.next-arrow img{
+    /* width:2rem; */
+    height: 500px;
+    /* height:1rem; */
+}
+.edu-about{
+    display: flex;
+    border-radius: 2rem;
+    width:fit-content;
+    padding:1rem;
+    border:solid;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-color: rgba(53,53,53);
+    border-width:0.1rem;
+}
+#about{
+    display:flex;  
+    box-sizing: border-box;
+    min-height:fit-content;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 96vh;
+    padding-top: 4vh;
+}
+.total-about{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    /* align-items: center; */
+    height: 400px;
+    margin:auto 0;
+}
+.about-img img{
+    /* width:500px; */
+    height:400px;
+    
+
+}
+.about-img{
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.about-container{
+    gap:0rem;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+}
+.about-title{
+    text-align:center;
+    align-self: center;
+    font-weight:600;
+}
 /* .btn-color-1:hover button{
     background-color:rgba(255,255,255) ;
 } */
+ .about-total-container{
+    display:flex;
+    gap:0rem;
+    box-sizing: border-box;
+    /* width:fit-content; */
+ }
+ .about-profile-container img{
+    height:300px;
+    width: fit-content;
+    margin:0 auto;
+ }
+ .about-profile-container{
+    height:300px;
+    margin:auto 0;
+ }
+.dissc,.dissc1
+{
+    border:solid;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2rem;
+    border-width: 0.05rem;
+    border-color:rgba(53,53,53);
+    width:fit-content;
+    padding:0.55rem;
+    flex:1;
+    
+    margin-right:2.5rem;
+    gap:0.4rem;
+}
+.dissc p,.dissc1 p{
+    font-size:16px;
+}
+#l12{
+    font-weight: bold;
+    font-size: 1.17em;
+    color:black
+}
+.dissc img,.dissc1 img{
+    height:2rem;
+    width:2rem;
+    /* width:1rem; */
+  
+}
+#about1{
+ display: flex;   
+ flex-direction: column;
+ height:96vh;
+ margin-top:4vh;
+ /* padding:0 10rem; */
+ margin-left: 10rem;
+ margin-right:10rem;
+ /* justify-content: center; */
+ /* align-items: center; */
+}
+.about-total-container{
+    display:flex;
+   
+
+    /* align-items: center;
+    justify-content: center; */
+}
+.about-profile-edu{
+    display:flex;
+    /* flex-direction:column; */
+    width:fit-content;
+    margin-right: auto;
+    justify-content: center;
+    align-items: center;
+}
+.about-head-text1,.about-head-text-2 h1{
+    text-align: center;
+}
+.about-head-text-2 h1{
+    font-size:3rem;
+    font-weight: 600;
+    color:black;
+    font-family: "Poppins", sans-serif;
+}
+.about-total-container{
+    /* height:80%; */
+    gap:4rem;
+    justify-content: center;
+    align-items: center;
+    /* margin:auto; */
+}
+.check{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    padding:6rem 0;
+}
+.check1{
+    display: flex;
+    justify-content: space-between;
+    /* gap:2.5rem; */
+    align-items: center;
+   /* padding: 2rem; */
+   margin: 1rem;
+}
+.about-profile-container img{
+    height:350px;
+}
+.down-arrow-1 img{
+    width:2rem;
+    height:2rem;
+    position: absolute;
+    /* flex:1; */
+     /* top:2rem;  */
+    /* left: 2rem;  */
+    right:2.75rem;
+    /* top:-2rem; */
+    /* bottom:-2rem; */
+
+}
+.down-arrow-1{
+    /* position: absolute; */
+    /* right: 2rem; */
+  /* top: -2.5rem; */
+}
+.icon{
+    width:2rem;
+    height:2rem;
+}
+.skills-set{
+    display: flex;
+
+}
+.text1{
+    display:flex;
+    flex-direction: column;
+}
+.skills-container-head{
+    /* padding-bottom:1rem; */
+}
+.skills-container{
+    border:solid;
+    /* width:fit-content; */
+    width: auto;
+    padding:2rem;
+    border-radius: 2rem;;
+    border-width:0.1rem;
+    color:rgba(85,85,85)
+    
+}
+.skill1{
+    display:flex;
+    justify-content: space-between;
+    /* padding-bottom: 2rem; */
+    /* gap:11rem; */
+    margin-bottom: 4rem;
+}
+.skills-set{
+    gap:0.3rem;
+}
+.text1{
+    gap:0.1rem;
+}
+.skills-container-head{
+    text-align: center;
+    
+}
+.skills-container{
+    /* text-align: center; */
+}
+.skills{
+    padding-top: 4vh;
+    height:96vh;
+    margin:0 10rem;
+    display:flex;
+    flex-direction: column;
+    /* margin-bottom:3rem; */
+}
+.skills-head-text-1{
+    text-align: center;
+}
+.temp12{
+    display:flex;
+    flex-direction: row;
+    gap:3rem;
+    align-items: center;
+    padding:4rem 0;
+    justify-content: center;
+    
+}
+.skills-container-head{
+    margin-bottom:32px;
+    text-align: center;
+    padding:0px;
+}
+h5{
+    font-size:1.17em;
+    color:black
+}
+.text1 p{
+    color:rgba(85,85,85)
+}
+/* #t12{
+    padding
+} */
+.skills-container{
+}
+h3{
+    font-weight:600;
+}
+#l45 h1{
+    font-size: 3rem;
+    font-weight:600;
+    color:black;
+}
