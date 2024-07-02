@@ -5,3 +5,4 @@ import { inject } from "@vercel/analytics"
 
 bootstrapApplication(AppComponent, appConfig)
   .catch((err) => console.error(err));
+  inject();
